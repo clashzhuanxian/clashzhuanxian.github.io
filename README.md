@@ -1,4 +1,4 @@
-# Clash专线 - 6月19日18.7M/S|免费Clash/Shadowrocket/V2ray/SSR节点推荐，VPN节点购买推荐  更新时间 2025-06-19 20:11:05
+# Clash专线 - 6月19日21.2M/S|免费Shadowrocket/V2ray/SSR/Clash节点推荐，VPN节点购买推荐  更新时间 2025-06-19 20:15:38
 所有免费clash节点都爬取自网络，请勿用于非法用途 。节点地址：<a href="https://clashzhuanxian.github.io" target="_blank">点击跳转</a>
 
 ## clash使用教程：
