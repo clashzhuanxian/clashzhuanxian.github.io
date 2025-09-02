@@ -1,4 +1,4 @@
-# Clash专线 - 8月27日19.3M/S|免费SSR/Shadowrocket/V2ray/Clash节点推荐，VPN节点购买推荐  更新时间 2025-08-27 10:05:25
+# Clash专线 - 9月2日20.4M/S|免费V2ray/Clash/SSR/Shadowrocket节点推荐，VPN节点购买推荐  更新时间 2025-09-02 10:11:31
 所有免费clash节点都爬取自网络，请勿用于非法用途 。节点地址：<a href="https://clashzhuanxian.github.io" target="_blank">点击跳转</a>
 
 ## clash使用教程：
@@ -9,23 +9,23 @@
 
 ### Clash订阅链接
 
-- https://clashzhuanxian.github.io/uploads/2025/08/0-20250827.yaml
-- https://clashzhuanxian.github.io/uploads/2025/08/1-20250827.yaml
-- https://clashzhuanxian.github.io/uploads/2025/08/2-20250827.yaml
-- https://clashzhuanxian.github.io/uploads/2025/08/3-20250827.yaml
-- https://clashzhuanxian.github.io/uploads/2025/08/4-20250827.yaml
+- https://clashzhuanxian.github.io/uploads/2025/09/0-20250902.yaml
+- https://clashzhuanxian.github.io/uploads/2025/09/1-20250902.yaml
+- https://clashzhuanxian.github.io/uploads/2025/09/2-20250902.yaml
+- https://clashzhuanxian.github.io/uploads/2025/09/3-20250902.yaml
+- https://clashzhuanxian.github.io/uploads/2025/09/4-20250902.yaml
 
 ### V2ray订阅链接
 
-- https://clashzhuanxian.github.io/uploads/2025/08/0-20250827.txt
-- https://clashzhuanxian.github.io/uploads/2025/08/1-20250827.txt
-- https://clashzhuanxian.github.io/uploads/2025/08/2-20250827.txt
-- https://clashzhuanxian.github.io/uploads/2025/08/3-20250827.txt
-- https://clashzhuanxian.github.io/uploads/2025/08/4-20250827.txt
+- https://clashzhuanxian.github.io/uploads/2025/09/0-20250902.txt
+- https://clashzhuanxian.github.io/uploads/2025/09/1-20250902.txt
+- https://clashzhuanxian.github.io/uploads/2025/09/2-20250902.txt
+- https://clashzhuanxian.github.io/uploads/2025/09/3-20250902.txt
+- https://clashzhuanxian.github.io/uploads/2025/09/4-20250902.txt
 
 ### Sing-box订阅链接
 
-- https://clashzhuanxian.github.io/uploads/2025/08/20250827.json
+- https://clashzhuanxian.github.io/uploads/2025/09/20250902.json
 
 ## 更多clash节点订阅 ：
 
