@@ -1,4 +1,4 @@
-# Clash专线 - 5月9日22.6M/S|免费Singbox节点/Shadowrocket节点/Clash节点/V2ray节点/SSR节点节点推荐，VPN节点购买推荐  更新时间 2026-05-09 08:49:26
+# Clash专线 - 5月16日19.9M/S|免费Clash节点/V2ray节点/Shadowrocket节点/SSR节点/Singbox节点节点推荐，VPN节点购买推荐  更新时间 2026-05-16 09:30:29
 所有免费clash节点都爬取自网络，请勿用于非法用途 。节点地址：<a href="https://clashzhuanxian.github.io" target="_blank">点击跳转</a>
 
 ## clash使用教程：
@@ -9,23 +9,23 @@
 
 ### 免费Clash节点订阅链接
 
-- https://clashzhuanxian.github.io/uploads/2026/05/0-20260509.yaml
-- https://clashzhuanxian.github.io/uploads/2026/05/1-20260509.yaml
-- https://clashzhuanxian.github.io/uploads/2026/05/2-20260509.yaml
-- https://clashzhuanxian.github.io/uploads/2026/05/3-20260509.yaml
-- https://clashzhuanxian.github.io/uploads/2026/05/4-20260509.yaml
+- https://clashzhuanxian.github.io/uploads/2026/05/0-20260516.yaml
+- https://clashzhuanxian.github.io/uploads/2026/05/1-20260516.yaml
+- https://clashzhuanxian.github.io/uploads/2026/05/2-20260516.yaml
+- https://clashzhuanxian.github.io/uploads/2026/05/3-20260516.yaml
+- https://clashzhuanxian.github.io/uploads/2026/05/4-20260516.yaml
 
 ### 免费V2ray节点订阅链接
 
-- https://clashzhuanxian.github.io/uploads/2026/05/0-20260509.txt
-- https://clashzhuanxian.github.io/uploads/2026/05/1-20260509.txt
-- https://clashzhuanxian.github.io/uploads/2026/05/2-20260509.txt
-- https://clashzhuanxian.github.io/uploads/2026/05/3-20260509.txt
-- https://clashzhuanxian.github.io/uploads/2026/05/4-20260509.txt
+- https://clashzhuanxian.github.io/uploads/2026/05/0-20260516.txt
+- https://clashzhuanxian.github.io/uploads/2026/05/1-20260516.txt
+- https://clashzhuanxian.github.io/uploads/2026/05/2-20260516.txt
+- https://clashzhuanxian.github.io/uploads/2026/05/3-20260516.txt
+- https://clashzhuanxian.github.io/uploads/2026/05/4-20260516.txt
 
 ### 免费Sing-box节点订阅链接
 
-- https://clashzhuanxian.github.io/uploads/2026/05/20260509.json
+- https://clashzhuanxian.github.io/uploads/2026/05/20260516.json
 
 ## 更多Clash节点订阅 ：
 
