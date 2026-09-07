@@ -340,9 +340,9 @@ systemctl </span><span><span class="hljs-built_in">enable</span></span><span> ra
     </div>
 <h4>FAQ</h4>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Potatso Lite 是否支持多节点测试？</h5></div>
+    <div class="panel-heading"><h5>Shadowrocket 的节点测速如何优化连接？</h5></div>
     <div class="panel-body">
-        Potatso Lite 支持手动测试单个节点延迟，但不支持批量自动测速。用户需逐个连接测试节点性能，或者结合其他客户端获取更全面的测速信息。<hr />    </div>
+        Shadowrocket 测试节点延迟和丢包率，并根据结果排序策略组节点。延迟低的节点优先使用，可保证网页浏览、视频播放和游戏连接速度和稳定性，提高整体网络体验。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>VLESS + XTLS 模式在移动网络下的优势是什么？</h5></div>
@@ -350,9 +350,14 @@ systemctl </span><span><span class="hljs-built_in">enable</span></span><span> ra
         XTLS 模式减少握手次数和加密开销，适合高延迟或不稳定的移动网络。结合策略组和多出口节点使用，可提高访问速度和连接稳定性，保证用户体验流畅可靠。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Hysteria2 的多路复用功能有哪些优势？</h5></div>
+    <div class="panel-heading"><h5>Sing-box 如何实现精确端口分流？</h5></div>
     <div class="panel-body">
-        多路复用允许多个请求共享同一 QUIC 连接，减少握手次数和延迟。高并发情况下可以提升吞吐量和稳定性，特别适合短连接频繁请求的应用，如游戏或即时通讯。<hr />    </div>
+        Sing-box 支持按端口匹配流量，将不同类型应用流量分配到指定节点。结合策略组，可提高访问速度和网络稳定性，实现精准分流和优化用户体验。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Clash 是什么？它主要有什么用途？</h5></div>
+    <div class="panel-body">
+        Clash 是一个跨平台的代理客户端，支持多种代理协议，如 Vmess、Vless、Trojan 和 Shadowsocks 等。它主要用于分流管理、网络代理和科学上网，用户可以通过配置文件灵活控制网络流量，实现不同网站或应用走不同代理。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>VLESS + Reality 模式相比普通 TLS 有什么优势？</h5></div>
@@ -360,34 +365,29 @@ systemctl </span><span><span class="hljs-built_in">enable</span></span><span> ra
         Reality 模式通过伪装握手和真实网站特征，提高流量隐蔽性，难以被 DPI 检测。TLS 模式更侧重加密和传输效率，Reality 更适合高封锁网络环境。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Surfboard 能否同步 Quantumult X 的规则？</h5></div>
-    <div class="panel-body">
-        Surfboard 的规则语法与 Quantumult X 相似，但并非完全兼容。部分策略组或脚本需手动修改格式方能正常使用，因此不建议直接复制，最好通过转换工具处理。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Shadowrocket 的节点测速如何优化连接？</h5></div>
-    <div class="panel-body">
-        Shadowrocket 测试节点延迟和丢包率，并根据结果排序策略组节点。延迟低的节点优先使用，可保证网页浏览、视频播放和游戏连接速度和稳定性，提高整体网络体验。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Sing-box 如何实现精确端口分流？</h5></div>
-    <div class="panel-body">
-        Sing-box 支持按端口匹配流量，将不同类型应用流量分配到指定节点。结合策略组，可提高访问速度和网络稳定性，实现精准分流和优化用户体验。<hr />    </div>
-</div>
-<div class="panel panel-default">
     <div class="panel-heading"><h5>Shadowrocket 支持自动测速吗？</h5></div>
     <div class="panel-body">
         支持。Shadowrocket 可以批量测速节点延迟并标记最佳连接。用户还可设置自动切换到最低延迟节点，实现稳定高速的上网体验，尤其在网络波动较大的环境中效果明显。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Netch 如何结合节点测速实现自动分流？</h5></div>
+    <div class="panel-heading"><h5>Hysteria2 的多路复用功能有哪些优势？</h5></div>
     <div class="panel-body">
-        Netch 可以结合节点延迟检测和策略组，将不同类型的流量分配到低延迟节点。提高网页、视频和游戏访问速度及稳定性，优化整体网络体验。<hr />    </div>
+        多路复用允许多个请求共享同一 QUIC 连接，减少握手次数和延迟。高并发情况下可以提升吞吐量和稳定性，特别适合短连接频繁请求的应用，如游戏或即时通讯。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Clash 是什么？它主要有什么用途？</h5></div>
+    <div class="panel-heading"><h5>Surfboard 能否同步 Quantumult X 的规则？</h5></div>
     <div class="panel-body">
-        Clash 是一个跨平台的代理客户端，支持多种代理协议，如 Vmess、Vless、Trojan 和 Shadowsocks 等。它主要用于分流管理、网络代理和科学上网，用户可以通过配置文件灵活控制网络流量，实现不同网站或应用走不同代理。    </div>
+        Surfboard 的规则语法与 Quantumult X 相似，但并非完全兼容。部分策略组或脚本需手动修改格式方能正常使用，因此不建议直接复制，最好通过转换工具处理。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Potatso Lite 是否支持多节点测试？</h5></div>
+    <div class="panel-body">
+        Potatso Lite 支持手动测试单个节点延迟，但不支持批量自动测速。用户需逐个连接测试节点性能，或者结合其他客户端获取更全面的测速信息。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Netch 如何结合节点测速实现自动分流？</h5></div>
+    <div class="panel-body">
+        Netch 可以结合节点延迟检测和策略组，将不同类型的流量分配到低延迟节点。提高网页、视频和游戏访问速度及稳定性，优化整体网络体验。    </div>
 </div>
 <div class="panel panel-default mt-5">
     <div class="panel-heading">
@@ -435,16 +435,16 @@ systemctl </span><span><span class="hljs-built_in">enable</span></span><span> ra
     </div>
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
-                        <li class="py-2"><a href="/free-nodes/2026-8-6-clash-verge-rev-node-share.htm" title="Clash专线 - 8月6日22.4M/S|免费Singbox节点/Clash节点/Trojan节点/Shadowrocket节点/V2ray节点/SSR节点节点推荐，VPN节点购买推荐">Clash专线 - 8月6日22.4M/S|免费Singbox节点/Clash节点/Trojan节点/Shadowrocket节点/V2ray节点/SSR节点节点推荐，VPN节点购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-8-24-clash-verge-rev-node-github.htm" title="Clash专线 - 8月24日20.8M/S|免费Clash节点/V2ray节点/SSR节点/Shadowrocket节点/Trojan节点/Singbox节点节点推荐，VPN节点购买推荐">Clash专线 - 8月24日20.8M/S|免费Clash节点/V2ray节点/SSR节点/Shadowrocket节点/Trojan节点/Singbox节点节点推荐，VPN节点购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/clash-verge-rev-github-2026-8-27.htm" title="Clash专线 - 8月27日20.9M/S|免费SSR节点/Trojan节点/Clash节点/Shadowrocket节点/V2ray节点/Singbox节点节点推荐，VPN节点购买推荐">Clash专线 - 8月27日20.9M/S|免费SSR节点/Trojan节点/Clash节点/Shadowrocket节点/V2ray节点/Singbox节点节点推荐，VPN节点购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-8-14-clash-verge-rev-nodes.htm" title="Clash专线 - 8月14日21.5M/S|免费V2ray节点/Trojan节点/SSR节点/Clash节点/Singbox节点/Shadowrocket节点节点推荐，VPN节点购买推荐">Clash专线 - 8月14日21.5M/S|免费V2ray节点/Trojan节点/SSR节点/Clash节点/Singbox节点/Shadowrocket节点节点推荐，VPN节点购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-8-20-free-node-subscribe.htm" title="Clash专线 - 8月20日21.8M/S|免费Singbox节点/Shadowrocket节点/Trojan节点/Clash节点/SSR节点/V2ray节点节点推荐，VPN节点购买推荐">Clash专线 - 8月20日21.8M/S|免费Singbox节点/Shadowrocket节点/Trojan节点/Clash节点/SSR节点/V2ray节点节点推荐，VPN节点购买推荐</a><hr /></li>
                         <li class="py-2"><a href="/free-nodes/clash-verge-rev-node-2026-8-15.htm" title="Clash专线 - 8月15日18.2M/S|免费Trojan节点/Shadowrocket节点/SSR节点/V2ray节点/Clash节点/Singbox节点节点推荐，VPN节点购买推荐">Clash专线 - 8月15日18.2M/S|免费Trojan节点/Shadowrocket节点/SSR节点/V2ray节点/Clash节点/Singbox节点节点推荐，VPN节点购买推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-7-22-clash-meta-github.htm" title="Clash专线 - 7月22日21.3M/S|免费Shadowrocket节点/Trojan节点/V2ray节点/Clash节点/Singbox节点/SSR节点节点推荐，VPN节点购买推荐">Clash专线 - 7月22日21.3M/S|免费Shadowrocket节点/Trojan节点/V2ray节点/Clash节点/Singbox节点/SSR节点节点推荐，VPN节点购买推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/clash-stash-2026-8-17.htm" title="Clash专线 - 8月17日20.4M/S|免费Singbox节点/V2ray节点/Trojan节点/Shadowrocket节点/SSR节点/Clash节点节点推荐，VPN节点购买推荐">Clash专线 - 8月17日20.4M/S|免费Singbox节点/V2ray节点/Trojan节点/Shadowrocket节点/SSR节点/Clash节点节点推荐，VPN节点购买推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/clash-verge-rev-github-2026-8-5.htm" title="Clash专线 - 8月5日18.9M/S|免费Trojan节点/SSR节点/Clash节点/V2ray节点/Shadowrocket节点/Singbox节点节点推荐，VPN节点购买推荐">Clash专线 - 8月5日18.9M/S|免费Trojan节点/SSR节点/Clash节点/V2ray节点/Shadowrocket节点/Singbox节点节点推荐，VPN节点购买推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/clash-verge-rev-windows-2026-8-13.htm" title="Clash专线 - 8月13日19M/S|免费Shadowrocket节点/SSR节点/V2ray节点/Singbox节点/Clash节点/Trojan节点节点推荐，VPN节点购买推荐">Clash专线 - 8月13日19M/S|免费Shadowrocket节点/SSR节点/V2ray节点/Singbox节点/Clash节点/Trojan节点节点推荐，VPN节点购买推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-7-27-node-share.htm" title="Clash专线 - 7月27日19.2M/S|免费V2ray节点/SSR节点/Trojan节点/Shadowrocket节点/Clash节点/Singbox节点节点推荐，VPN节点购买推荐">Clash专线 - 7月27日19.2M/S|免费V2ray节点/SSR节点/Trojan节点/Shadowrocket节点/Clash节点/Singbox节点节点推荐，VPN节点购买推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-7-23-clash-verge-rev-github.htm" title="Clash专线 - 7月23日18M/S|免费SSR节点/Shadowrocket节点/Clash节点/V2ray节点/Singbox节点/Trojan节点节点推荐，VPN节点购买推荐">Clash专线 - 7月23日18M/S|免费SSR节点/Shadowrocket节点/Clash节点/V2ray节点/Singbox节点/Trojan节点节点推荐，VPN节点购买推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-8-18-clash-node-daily-updates.htm" title="Clash专线 - 8月18日18.8M/S|免费V2ray节点/Clash节点/Singbox节点/Trojan节点/SSR节点/Shadowrocket节点节点推荐，VPN节点购买推荐">Clash专线 - 8月18日18.8M/S|免费V2ray节点/Clash节点/Singbox节点/Trojan节点/SSR节点/Shadowrocket节点节点推荐，VPN节点购买推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-7-28-clash-node.htm" title="Clash专线 - 7月28日21.4M/S|免费V2ray节点/Clash节点/Shadowrocket节点/Singbox节点/Trojan节点/SSR节点节点推荐，VPN节点购买推荐">Clash专线 - 7月28日21.4M/S|免费V2ray节点/Clash节点/Shadowrocket节点/Singbox节点/Trojan节点/SSR节点节点推荐，VPN节点购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/clash-verge-rev-github-2026-8-29.htm" title="Clash专线 - 8月29日18.3M/S|免费SSR节点/Shadowrocket节点/Trojan节点/Clash节点/V2ray节点/Singbox节点节点推荐，VPN节点购买推荐">Clash专线 - 8月29日18.3M/S|免费SSR节点/Shadowrocket节点/Trojan节点/Clash节点/V2ray节点/Singbox节点节点推荐，VPN节点购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-8-26-clash-verge-rev-nodes.htm" title="Clash专线 - 8月26日20.3M/S|免费Trojan节点/V2ray节点/Shadowrocket节点/Singbox节点/Clash节点/SSR节点节点推荐，VPN节点购买推荐">Clash专线 - 8月26日20.3M/S|免费Trojan节点/V2ray节点/Shadowrocket节点/Singbox节点/Clash节点/SSR节点节点推荐，VPN节点购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-9-4-clash-meta-github.htm" title="Clash专线 - 9月4日20.2M/S|免费Singbox节点/V2ray节点/Shadowrocket节点/SSR节点/Clash节点/Trojan节点节点推荐，VPN节点购买推荐">Clash专线 - 9月4日20.2M/S|免费Singbox节点/V2ray节点/Shadowrocket节点/SSR节点/Clash节点/Trojan节点节点推荐，VPN节点购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/clash-v2ray-ss-ssr-2026-8-9.htm" title="Clash专线 - 8月9日21.1M/S|免费Trojan节点/SSR节点/Clash节点/V2ray节点/Singbox节点/Shadowrocket节点节点推荐，VPN节点购买推荐">Clash专线 - 8月9日21.1M/S|免费Trojan节点/SSR节点/Clash节点/V2ray节点/Singbox节点/Shadowrocket节点节点推荐，VPN节点购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-8-12-clash-verge-rev-node-github.htm" title="Clash专线 - 8月12日20M/S|免费Trojan节点/Shadowrocket节点/Clash节点/V2ray节点/SSR节点/Singbox节点节点推荐，VPN节点购买推荐">Clash专线 - 8月12日20M/S|免费Trojan节点/Shadowrocket节点/Clash节点/V2ray节点/SSR节点/Singbox节点节点推荐，VPN节点购买推荐</a><hr /></li>
                     </ul>
     </div>
 </div>
@@ -456,10 +456,10 @@ systemctl </span><span><span class="hljs-built_in">enable</span></span><span> ra
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">31</span> <a href="/date/2026-08/" title="2026-08 归档">2026-08</a></h4>
+                <h4><span class="badge" style="float: right;">4</span> <a href="/date/2026-09/" title="2026-09 归档">2026-09</a></h4>
             </li>
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">13</span> <a href="/date/2026-07/" title="2026-07 归档">2026-07</a></h4>
+                <h4><span class="badge" style="float: right;">26</span> <a href="/date/2026-08/" title="2026-08 归档">2026-08</a></h4>
             </li>
                     </ul>
     </div>
